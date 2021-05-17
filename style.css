@@ -1,0 +1,33 @@
+.container {
+  width: 50%;
+}
+
+.loading {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 3px solid rgb(253, 253, 253);
+  border-top: 3px dashed rgb(2, 15, 194);
+  border-bottom: 3px dashed rgb(173, 3, 40);
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading1 {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid rgb(226, 226, 226);
+  background-color: rgb(212, 100, 7);
+  animation: move 1s linear infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(200px);
+  }
+}
